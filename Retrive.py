@@ -12,3 +12,5 @@ key_input = input("Please enter the key in the form of 'x/y/z': ")
 
 object_dict = eval(object_input)  
 value = get_value_from_nested_object(object_dict, key_input)
+
+print(f"The value associated with key '{key_input}' in the nested object is: {value}")
